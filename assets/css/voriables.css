@@ -1,0 +1,11 @@
+/* color */
+:root{
+    --primary-text: rgba(89, 141, 102, 1);
+    --secondary-text: rgba(44, 45, 53, 1);
+    --grey-text:rgba(134, 146, 139, 1);
+    --white-text: #fff;
+
+    /* background */
+    --primary:rgba(225, 237, 230, 1);
+}
+

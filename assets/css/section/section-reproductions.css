@@ -1,0 +1,120 @@
+.reproductions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 70px;
+}
+.reproductions h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+
+}
+.cotigories{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.cotigories .active{
+    background: rgba(212, 232, 217, 1);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.active:nth-child(1){
+    background: rgba(55, 107, 68, 1);
+}
+.active a{
+    text-decoration: none;
+}
+.france{
+    color: var(--white-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.48px;
+    text-align: left;
+
+}
+.germany{
+    color: var(--secondary-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.48px;
+    text-align: left;
+
+}
+.england{
+    color: var(--secondary-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.48px;
+    text-align: left;
+    
+}
+
+/* card - reproductions*/
+.card-reproductions{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13.3px;
+
+}
+
+.card-categories{
+    background:  rgba(225, 237, 230, 1);
+    padding: 0px 20px 30px 20px
+}
+
+.text-card{
+    margin-top:20px ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.13px;
+    text-align: left;
+    color: rgba(134, 146, 139, 1);
+}
+
+.title-card{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.22px;
+    text-align: left;
+    color: var(--secondary-text);
+}
+
+.subtext-card{
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.13px;
+    text-align: left;
+    color: var(--secondary-text);
+}
+
+.currency-card{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.18px;
+    text-align: left;
+    color:var( --primary-text);
+}
+
+.btn-currency-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding:20px 60px 20px 60px;
+
+    border: 1px solid  rgba(89, 141, 102, 1);
+    color: var(--primary-text);
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.48px;
+}
+
