@@ -1,0 +1,48 @@
+.collection{
+    background-image: url('../pic_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.collection-row{
+    padding-top: 170px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.collection-row h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    color: var(--white-wtext);
+}
+
+.subtitle-collection{
+    max-width: 600px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: var(--white-wtext);
+    margin-bottom: 60px;
+}
+
+.btn-collection{
+    display: flex;
+    padding-bottom: 170px;
+}
+.btn-collection div {
+    background-color:rgba(238, 219, 109, 1);
+    padding: 20px 60px 20px 60px;
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.48px;
+    text-align: left;
+    color: var(--secondary-text);
+
+    
+}
