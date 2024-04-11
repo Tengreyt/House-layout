@@ -18,9 +18,9 @@
                 </div>
     
                 <nav>
-                    <a href="#">Репродукции</a>
-                    <a href="#">Новинки</a>
-                    <a href="#">О нас</a>
+                    <a class="nav-link" href="#reproductions">Репродукции</a>
+                    <a class="nav-link" href="#collection">Новинки</a>
+                    <a class="nav-link">О нас</a>
                     <img src="./assets/icons/cart.png" alt="cart">
                 </nav>
                 
@@ -33,7 +33,7 @@
         <section><!--intro-->
 
             <div class="container">
-                <div class="intro">
+                <div class="intro" id="intro">
                     <div>
                         <img src="./assets/img/bg-intro.png" alt="bg-intro">
                     </div>
@@ -54,21 +54,21 @@
         <section><!--Reproductions-->
 
             <div class="container">
-                <div class="reproductions">
+                <div class="reproductions" id="reproductions">
                     <h1>Репродукции</h1>
 
                     <div class="cotigories">
                         <!-- France -->
                         <div class="active">
-                            <a class="france" href="#">Франция</a>
+                            <a class="france">Франция</a>
                         </div>
                         <!-- Germany -->
                         <div class="active">
-                            <a class="germany" href="#">Германия</a>
+                            <a class="germany">Германия</a>
                         </div>
                         <!-- England -->
                         <div class="active">
-                            <a class="england" href="#">Англия</a>
+                            <a class="england">Англия</a>
                         </div>
                     </div>
 
@@ -174,7 +174,7 @@
 
         </section>
 
-        <section class="collection"> <!--Collection-->
+        <section class="collection" id="collection"> <!--Collection-->
             <div class="container">
                 <div class="collection-row">
                     <img src="./assets/icons/Star 2.png" alt="Star">
@@ -197,7 +197,85 @@
                 </div>
             </div>
         </section>
+
+        <section><!--team-->
+            <div class="container">
+
+                <div class="team-house" id="team">
+                    <img src="./assets/img/Drawing.png" alt="Drawing">
+                    
+                    <div class="team-row">
+                        <h1 class="team-title">Наша команда</h1>
+                        <p class="team-subtitle">Значимость этих проблем настолько очевидна, 
+                            что базовый вектор <br> развития позволяет оценить 
+                            значение экспериментов, поражающих по своей 
+                            масштабности и грандиозности. Мы вынуждены 
+                            отталкиваться  от того, что консультация с 
+                            широким активом.
+                        </p>
+                        <div class="team-img">
+                            <img src="./assets/img/Nasty.png" alt="">
+                            <img src="./assets/img/Oleg.jpg" alt="">
+                            <img src="./assets/img/Nikita.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <!-- Первый слой -->
+                <div class="footer-sloy">
+                    <!-- второй слой -->
+                    <div class="footer-logo">
+                        <img src="./assets/icons/footer-logo.svg" alt="footer-logo">
+                        <div>
+                            <p class="footer-logo-tel">+7 (999) 543-54-54</p>
+                            <p class="footer-logo-text">Мастерская</p>
+                        </div>
+                    </div>
+
+                    <!-- Первый слой -->
+                    <div class="footer-col">
+                        <!-- Второй слой -->
+                        <div class="footer-nav">
+                            <h3>Репродукции</h3>
+                            <p>Франция</p>
+                            <p>Германия</p>
+                            <p>Англия</p>
+                        </div>
+                        <div class="footer-nav">
+                            <h3>Новинки</h3>
+                            <p>2021</p>
+                            <p>2020</p>
+                        </div>
+                        <div class="footer-nav">
+                            <h3>О нас</h3>
+                            <p>Художники</p>
+                            <p>Менеджеры</p>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-social">
+                        <div class="footer-social-img">
+                            <img src="./assets/icons/fs.svg" alt="">
+                            <img src="./assets/icons/Vector (1).svg" alt="">
+                            <img src="./assets/icons/Vector (2).svg" alt="">
+                        </div>
+                        <p>Ink. House ®<br>
+                            All rights reserved</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
     <script src="./assets/JS/learn.js"></script>
 </body>
 </html>

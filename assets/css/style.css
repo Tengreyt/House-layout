@@ -5,6 +5,8 @@
 @import url('./section/section-intro.css');
 @import url('./section/section-reproductions.css');
 @import url('./section/section-collection.css');
+@import url('./section/section-team.css');
+@import url('./app/footer.css');
 
 /* voriables */
 @import url('./voriables.css');

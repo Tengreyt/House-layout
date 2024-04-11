@@ -1,0 +1,31 @@
+.team-house{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.team-row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.team-title{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    color: var(--secondary-text);
+}
+.team-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: var(--secondary-text);
+}
+.team-img{
+    display: flex;
+    gap: 30px;
+}

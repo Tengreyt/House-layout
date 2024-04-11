@@ -33,7 +33,7 @@
     font-weight: 500;
     line-height: 23.48px;
     text-align: left;
-
+    cursor: pointer;
 }
 .germany{
     color: var(--secondary-text);
@@ -41,7 +41,7 @@
     font-weight: 500;
     line-height: 23.48px;
     text-align: left;
-
+    cursor: pointer;
 }
 .england{
     color: var(--secondary-text);
@@ -49,7 +49,7 @@
     font-weight: 500;
     line-height: 23.48px;
     text-align: left;
-    
+    cursor: pointer;
 }
 
 /* card - reproductions*/
