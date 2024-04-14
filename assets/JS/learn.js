@@ -9,3 +9,20 @@ buyButtons.forEach(button => {
         }
     }); 
 }); 
+
+
+
+const errorActiveG = document.querySelectorAll('.germany')
+errorActiveG.forEach(button => {
+    button.addEventListener('click', function(){
+        alert("Произошла ошибка :(");
+    }); 
+});
+
+const errorActiveE = document.querySelectorAll('.england')
+errorActiveE.forEach(button => {
+    button.addEventListener('click', function(){
+        alert("Произошла ошибка :(");
+    }); 
+});
+

@@ -1,6 +1,8 @@
 header{
     background-color: var(--primary);
     padding: 32px 33px;
+    position: fixed;
+    width: 100%;
 }
 .container{
     max-width: 1440px;
@@ -14,13 +16,19 @@ header{
 .header-logo{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
-.header-logo h1 {
+.media-nav{
+    display: none;
+}
+
+.header-logo a{
     padding-left: 8px;
     font-size: 20px;
     font-weight: 700;
     line-height: 23.48px;
     text-align: left;
+    text-decoration: none;
     color: var(--primary-text);
 }
 nav{

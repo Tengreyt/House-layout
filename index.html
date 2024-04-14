@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,13 +15,22 @@
             <div class="header-row">
                 <div class="header-logo">
                     <img src="./assets/icons/header-icons.png" alt="header-icons">
-                    <h1>Ink. House</h1>
+                    <a href="#intro">Ink. House</a>
+                </div>
+
+                <div class="media-nav">
+                    <div>
+                        <img src="./assets/icons/List.png" alt="List">
+                    </div>
+                    <div>
+                        <img src="./assets/icons/cart.png" alt="cart">
+                    </div>
                 </div>
     
                 <nav>
                     <a class="nav-link" href="#reproductions">Репродукции</a>
                     <a class="nav-link" href="#collection">Новинки</a>
-                    <a class="nav-link">О нас</a>
+                    <a class="nav-link" href="#team">О нас</a>
                     <img src="./assets/icons/cart.png" alt="cart">
                 </nav>
                 
@@ -60,15 +70,15 @@
                     <div class="cotigories">
                         <!-- France -->
                         <div class="active">
-                            <a class="france">Франция</a>
+                            <a class="france" id="france">Франция</a>
                         </div>
                         <!-- Germany -->
                         <div class="active">
-                            <a class="germany">Германия</a>
+                            <a class="germany" id="germany">Германия</a>
                         </div>
                         <!-- England -->
                         <div class="active">
-                            <a class="england">Англия</a>
+                            <a class="england" id="england">Англия</a>
                         </div>
                     </div>
 
